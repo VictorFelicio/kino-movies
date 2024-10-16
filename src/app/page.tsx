@@ -1,9 +1,11 @@
-import Flex from '@/components/template/Flex';
+import Carousel from '@/components/template/Carousel';
 
 export default function Home() {
     return (
-        <Flex>
-            <p className="w-20 h-20 bg-red-200"> Oi</p>
-        </Flex>
+        <Carousel>
+            <p>texto 1</p>
+            <p>texto 2</p>
+            <p>texto 3</p>
+        </Carousel>
     );
 }
